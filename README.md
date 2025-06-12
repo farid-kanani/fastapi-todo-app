@@ -24,7 +24,7 @@ git clone https://github.com/farid-kanani/fastapi-todo-app.git
 cd fastapi-todo-app
 ```
 
-2.Create and activate a virtual environment (optional but recommended):
+2. Create and activate a virtual environment (optional but recommended):
 
 ```bash
 python -m venv env
@@ -32,13 +32,13 @@ source env/bin/activate        # On Linux/macOS
 env\Scripts\activate           # On Windows
 ```
 
-3.Install dependencies:
+3. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4.Run the application:
+4. Run the application:
 
 ```bash
 uvicorn main:app --reload
